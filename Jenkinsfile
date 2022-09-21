@@ -22,7 +22,7 @@ pipeline {
                 echo 'Clonning Repository'
 
                 git url: 'https://github.com/leedduk/temp.git',
-                    branch: 'master',
+                    branch: 'main',
                     credentialsId: 'tokenjenkins'
             }
 
